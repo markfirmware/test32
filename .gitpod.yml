@@ -1,0 +1,7 @@
+ports:
+  - port: 8080
+    onOpen: open-browser
+
+tasks:
+  - name: http server
+    command: npx servor docs --reload
